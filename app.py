@@ -109,7 +109,7 @@ if user_response:
     )
 
 # Motivational Quote Section
-st.markdown('<h2 class="section-title">🌟 Stay Motivated!</h2>', unsafe_allow_html=True)
+st.markdown('<h2 class="section-title"> Stay Motivated!</h2>', unsafe_allow_html=True)
 st.markdown(
     """
     <div class="quote-box">
@@ -120,7 +120,7 @@ st.markdown(
 )
 
 # Call to Action
-st.markdown('<h2 class="section-title">🚀 Start Your Growth Journey</h2>', unsafe_allow_html=True)
+st.markdown('<h2 class="section-title"> Start Your Growth Journey</h2>', unsafe_allow_html=True)
 st.write("Adopting a growth mindset is a lifelong journey. Keep challenging yourself and embracing new learning experiences!")
 
 if st.button("I Commit to a Growth Mindset! 🎯", key="commit"):
